@@ -247,7 +247,7 @@ html {
 }
 
 .team-member{
-   width: 36rem; 
+   width: 36rem;
    background-color: #fffeee;
    padding: 1rem 1rem 2rem 1rem;
    position: relative;
@@ -273,13 +273,13 @@ html {
 
 img.team-memeber-img.blury{
     filter: blur(2px);
-}    
+}
 
 .team-member-name{
     font-size: 2.3rem;
     font-weight: 700;
     color: #796717;
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
 .team-member-name span{
@@ -474,3 +474,22 @@ img.team-memeber-img.blury{
 
 
 /* End of Section 4 */
+
+
+/* Responsive */
+
+@media screen and (min-width:1350px) {
+
+    .customer{
+        width:40rem ;
+    }
+
+    .customer img{
+        width: 20rem;
+        height: 20rem;
+        border-radius:30% ;
+    }
+
+}
+
+/* End responsive */
